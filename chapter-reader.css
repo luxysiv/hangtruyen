@@ -1,0 +1,26 @@
+/* chapter-reader.css */
+
+/* Reset body margin để ảnh tràn ra toàn màn hình */
+body {
+    margin: 0;
+    background-color: #000; /* Nên dùng màu tối để đọc truyện dễ chịu hơn */
+}
+
+/* Ẩn header và footer khi đang đọc truyện để tập trung */
+header, footer {
+    display: none;
+}
+
+/* Định dạng cho container chứa các hình ảnh */
+#comic-images-container {
+    line-height: 0; /* Quan trọng: loại bỏ khoảng trống giữa các thẻ img */
+    font-size: 0; /* Tương tự, loại bỏ khoảng trống font */
+}
+
+.comic-page-image {
+    display: block; /* Quan trọng: loại bỏ khoảng trống dưới mỗi ảnh */
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}

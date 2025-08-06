@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết truyện</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="comic-detail.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1><a href="index.html">Hang Truyện</a></h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <div id="comic-detail-container" class="comic-detail-container">
+            <div class="comic-header">
+                <img id="comic-image" src="" alt="Ảnh bìa">
+                <div class="comic-info">
+                    <h1 id="comic-title"></h1>
+                    <p id="comic-subtitle"></p>
+                    <div id="comic-tags" class="tags-container"></div>
+                </div>
+            </div>
+            
+            <div id="comic-description" class="comic-description"></div>
+            
+            <hr>
+            
+            <div id="chapter-list-container">
+                <h2>Danh sách chương</h2>
+                <div id="chapterList">
+                    </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Hang Truyện. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="comic-detail.js"></script>
+</body>
+</html>
